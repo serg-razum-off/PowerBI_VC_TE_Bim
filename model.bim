@@ -5896,6 +5896,31 @@
             }
           }
         ]
+      },
+      {
+        "name": "📱Metriks",
+        "columns": [
+          {
+            "name": "Value",
+            "dataType": "int64",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "6bd6950c-82b0-4f0a-b1a4-c809b95403fa",
+            "sourceColumn": "[Value]",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "6c4bf4ba-5e5e-41ad-bb32-2a6fdb7a18cc",
+        "partitions": [
+          {
+            "name": "📱Metriks",
+            "mode": "import",
+            "source": {
+              "expression": "{BLANK()}",
+              "type": "calculated"
+            }
+          }
+        ]
       }
     ]
   }
