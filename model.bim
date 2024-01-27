@@ -12,7 +12,7 @@
       },
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"HttpSource\",\"Customer\",\"Date\",\"Product\",\"Reseller\",\"Sales\",\"Sales Order\",\"Sales Territory\",\"@ReportInfo\",\"Internet Sales\",\"Custom Sales\",\"Custom Internet Sales\",\"data1\"]"
+        "value": "[\"HttpSource\",\"Customer\",\"Date\",\"Product\",\"Reseller\",\"Sales\",\"Sales Order\",\"Sales Territory\",\"@ReportInfo\",\"Internet Sales\",\"Custom Sales\",\"Custom Internet Sales\",\"data2\",\"data1\"]"
       },
       {
         "name": "__TEdtr",
@@ -5913,6 +5913,11 @@
         "lineageTag": "6c4bf4ba-5e5e-41ad-bb32-2a6fdb7a18cc",
         "measures": [
           {
+            "name": "m2",
+            "expression": "\"This is second measure\"",
+            "lineageTag": "d325e0d9-7684-4574-bc70-cf84eb6b287c"
+          },
+          {
             "name": "m1",
             "expression": "\"measure One Added\"",
             "lineageTag": "922e75df-f710-41e1-aefd-4619b99006f9"
@@ -5925,6 +5930,65 @@
             "source": {
               "expression": "{BLANK()}",
               "type": "calculated"
+            }
+          }
+        ]
+      },
+      {
+        "name": "data2",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Підрозділ",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b2c27fe9-491a-4a07-ad90-b5d831865a06",
+            "sourceColumn": "Підрозділ",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Тип",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8eaaf87b-6c74-450f-b547-1097326e62ed",
+            "sourceColumn": "Тип",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "20beed6f-5e8c-48d5-9d0e-a404dbf58dc6",
+        "partitions": [
+          {
+            "name": "data2",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:\\Users\\RazumovSergii\\OneDrive - UMOD Directory\\Desktop\\data.csv\"),[Delimiter=\",\", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Promoted Headers\",{\"Підрозділ\", \"Тип\"})",
+                "in",
+                "    #\"Removed Other Columns\""
+              ],
+              "type": "m"
             }
           }
         ]
