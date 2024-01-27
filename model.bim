@@ -1,0 +1,5902 @@
+{
+  "compatibilityLevel": 1567,
+  "model": {
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.124.1805.0 (23.12)"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"HttpSource\",\"Customer\",\"Date\",\"Product\",\"Reseller\",\"Sales\",\"Sales Order\",\"Sales Territory\",\"@ReportInfo\",\"Internet Sales\",\"Custom Sales\",\"Custom Internet Sales\"]"
+      },
+      {
+        "name": "__TEdtr",
+        "value": "1"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-US",
+    "cultures": [
+      {
+        "name": "en-US",
+        "linguisticMetadata": {
+          "content": {
+            "DynamicImprovement": "HighConfidence",
+            "Entities": {
+              "customer": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "customer": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "customer": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "client": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "consumer": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "user": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "buyer": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "patron": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "purchaser": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "shopper": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  }
+                ]
+              },
+              "customer.city": {
+                "Binding": {
+                  "ConceptualEntity": "Customer",
+                  "ConceptualProperty": "City"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "city": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "city": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "location": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "metropolis": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "municipality": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "town": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  },
+                  {
+                    "metropolitan": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  }
+                ]
+              },
+              "customer.customer": {
+                "Binding": {
+                  "ConceptualEntity": "Customer",
+                  "ConceptualProperty": "Customer"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "customer": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "customer": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "customer name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "customer name": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "client": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "consumer": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "user": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "buyer": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "patron": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "purchaser": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "shopper": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  }
+                ]
+              },
+              "customer.customer_key": {
+                "Binding": {
+                  "ConceptualEntity": "Customer",
+                  "ConceptualProperty": "🔑 CustomerKey"
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "customer key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "customer key": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "CustomerKey": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "client key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5999999841054281
+                    }
+                  },
+                  {
+                    "consumer key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5999999841054281
+                    }
+                  },
+                  {
+                    "user key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5999999841054281
+                    }
+                  },
+                  {
+                    "buyer key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5999999841054281
+                    }
+                  },
+                  {
+                    "patron key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5999999841054281
+                    }
+                  },
+                  {
+                    "purchaser key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5999999841054281
+                    }
+                  },
+                  {
+                    "shopper key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5999999841054281
+                    }
+                  },
+                  {
+                    "main": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618183710358364
+                    }
+                  },
+                  {
+                    "basic": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618159901266505
+                    }
+                  },
+                  {
+                    "fundamental": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618155139448132
+                    }
+                  }
+                ]
+              },
+              "date": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "period": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  }
+                ]
+              },
+              "date.date_key": {
+                "Binding": {
+                  "ConceptualEntity": "Date",
+                  "ConceptualProperty": "🔑 DateKey"
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date key": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "DateKey": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "moment key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5999999841054281
+                    }
+                  },
+                  {
+                    "period key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.58199998458226532
+                    }
+                  },
+                  {
+                    "main": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618183710358364
+                    }
+                  },
+                  {
+                    "basic": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618159901266505
+                    }
+                  },
+                  {
+                    "fundamental": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618155139448132
+                    }
+                  },
+                  {
+                    "central": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618150377629764
+                    }
+                  },
+                  {
+                    "major": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618145615811391
+                    }
+                  },
+                  {
+                    "keynote": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618140853993018
+                    }
+                  },
+                  {
+                    "essential": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618136092174645
+                    }
+                  },
+                  {
+                    "date solution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.4750000188748042
+                    }
+                  }
+                ]
+              },
+              "date.fiscal": {
+                "Binding": {
+                  "ConceptualEntity": "Date",
+                  "Hierarchy": "Fiscal"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fiscal": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fiscal": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "date.fiscal.date": {
+                "Binding": {
+                  "ConceptualEntity": "Date",
+                  "Hierarchy": "Fiscal",
+                  "HierarchyLevel": "Date"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "date": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "date name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "date name": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "moment": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "period": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  }
+                ]
+              },
+              "date.fiscal.month": {
+                "Binding": {
+                  "ConceptualEntity": "Date",
+                  "Hierarchy": "Fiscal",
+                  "HierarchyLevel": "Month"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "mth": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  }
+                ]
+              },
+              "date.fiscal.quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Date",
+                  "Hierarchy": "Fiscal",
+                  "HierarchyLevel": "Quarter"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "quarter": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "qtr": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.81818181818181823
+                    }
+                  }
+                ]
+              },
+              "date.fiscal.year": {
+                "Binding": {
+                  "ConceptualEntity": "Date",
+                  "Hierarchy": "Fiscal",
+                  "HierarchyLevel": "Year"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "year": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "year": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "yr": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  }
+                ]
+              },
+              "date.fiscal_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Date",
+                  "ConceptualProperty": "Fiscal Quarter"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "fiscal quarter": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "fiscal quarter": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "fiscal qtr": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.83333333333333337
+                    }
+                  },
+                  {
+                    "fisc quarter": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.58200000000000007
+                    }
+                  },
+                  {
+                    "fiscal qrt": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.58200000000000007
+                    }
+                  },
+                  {
+                    "fiscal qrtr": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.58200000000000007
+                    }
+                  }
+                ]
+              },
+              "date.month": {
+                "Binding": {
+                  "ConceptualEntity": "Date",
+                  "ConceptualProperty": "Month"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "mth": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  }
+                ]
+              },
+              "date.month_key": {
+                "Binding": {
+                  "ConceptualEntity": "Date",
+                  "ConceptualProperty": "MonthKey"
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "month key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "month key": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "MonthKey": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "mth key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5999999841054281
+                    }
+                  },
+                  {
+                    "main": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618183710358364
+                    }
+                  },
+                  {
+                    "basic": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618159901266505
+                    }
+                  },
+                  {
+                    "fundamental": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618155139448132
+                    }
+                  },
+                  {
+                    "central": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618150377629764
+                    }
+                  },
+                  {
+                    "major": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618145615811391
+                    }
+                  },
+                  {
+                    "keynote": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618140853993018
+                    }
+                  },
+                  {
+                    "essential": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618136092174645
+                    }
+                  },
+                  {
+                    "month solution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.4750000188748042
+                    }
+                  },
+                  {
+                    "month explanation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47499997137480232
+                    }
+                  }
+                ]
+              },
+              "product": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "artifact": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "item": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  },
+                  {
+                    "merchandise": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  },
+                  {
+                    "produce": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  }
+                ]
+              },
+              "product.color": {
+                "Binding": {
+                  "ConceptualEntity": "Product",
+                  "ConceptualProperty": "Color"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "color": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "color": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "hue": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.49090911041606561
+                    }
+                  },
+                  {
+                    "tint": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618183710358364
+                    }
+                  },
+                  {
+                    "shade": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618178948539996
+                    }
+                  },
+                  {
+                    "dye": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618174186721618
+                    }
+                  },
+                  {
+                    "paint": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618169424903251
+                    }
+                  },
+                  {
+                    "pigment": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618164663084878
+                    }
+                  }
+                ]
+              },
+              "product.product1": {
+                "Binding": {
+                  "ConceptualEntity": "Product",
+                  "Hierarchy": "Products"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "artifact": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "item": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  },
+                  {
+                    "merchandise": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  },
+                  {
+                    "produce": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  }
+                ]
+              },
+              "product.product1.category": {
+                "Binding": {
+                  "ConceptualEntity": "Product",
+                  "Hierarchy": "Products",
+                  "HierarchyLevel": "Category"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "category": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "category": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "classification": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "class": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  },
+                  {
+                    "type": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  },
+                  {
+                    "grouping": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  },
+                  {
+                    "kind": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  }
+                ]
+              },
+              "product.product1.model": {
+                "Binding": {
+                  "ConceptualEntity": "Product",
+                  "Hierarchy": "Products",
+                  "HierarchyLevel": "Model"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "model": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "model": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "perfect": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618183710358364
+                    }
+                  },
+                  {
+                    "classic": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618164663084878
+                    }
+                  },
+                  {
+                    "ideal": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618155139448132
+                    }
+                  },
+                  {
+                    "standard": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618145615811391
+                    }
+                  },
+                  {
+                    "representative": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618140853993018
+                    }
+                  },
+                  {
+                    "mockup": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.46636365489526233
+                    }
+                  },
+                  {
+                    "representation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.46636360825889683
+                    }
+                  },
+                  {
+                    "simulation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.46636337507706932
+                    }
+                  },
+                  {
+                    "replica": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.45237274524840443
+                    }
+                  },
+                  {
+                    "copy": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.45237265477385541
+                    }
+                  }
+                ]
+              },
+              "product.product1.product": {
+                "Binding": {
+                  "ConceptualEntity": "Product",
+                  "Hierarchy": "Products",
+                  "HierarchyLevel": "Product"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "product name": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product name": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "artifact": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.73636361685666174
+                    }
+                  },
+                  {
+                    "item": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  },
+                  {
+                    "merchandise": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  },
+                  {
+                    "produce": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.7142727083509619
+                    }
+                  }
+                ]
+              },
+              "product.product1.subcategory": {
+                "Binding": {
+                  "ConceptualEntity": "Product",
+                  "Hierarchy": "Products",
+                  "HierarchyLevel": "Subcategory"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "subcategory": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "subcategory": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  }
+                ]
+              },
+              "product.product_key": {
+                "Binding": {
+                  "ConceptualEntity": "Product",
+                  "ConceptualProperty": "🔑 ProductKey"
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "product key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "product key": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "ProductKey": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "artifact key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.5999999841054281
+                    }
+                  },
+                  {
+                    "item key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.58199998458226532
+                    }
+                  },
+                  {
+                    "merchandise key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.58199998458226532
+                    }
+                  },
+                  {
+                    "produce key": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.58199998458226532
+                    }
+                  },
+                  {
+                    "main": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618183710358364
+                    }
+                  },
+                  {
+                    "basic": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618159901266505
+                    }
+                  },
+                  {
+                    "fundamental": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618155139448132
+                    }
+                  },
+                  {
+                    "central": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618150377629764
+                    }
+                  },
+                  {
+                    "major": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618145615811391
+                    }
+                  },
+                  {
+                    "keynote": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618140853993018
+                    }
+                  }
+                ]
+              },
+              "sales_order": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sales order": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sales order": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "sale order": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "sale instruction": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.500000019868215
+                    }
+                  },
+                  {
+                    "sale direction": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.49999991986821091
+                    }
+                  },
+                  {
+                    "sale edict": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499999769868205
+                    }
+                  },
+                  {
+                    "sale command": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48500001927216851
+                    }
+                  },
+                  {
+                    "sale directive": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499997077216667
+                    }
+                  },
+                  {
+                    "sale demand": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499987377216269
+                    }
+                  },
+                  {
+                    "sale mandate": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499982527216079
+                    }
+                  },
+                  {
+                    "sale imperative": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499972827215687
+                    }
+                  },
+                  {
+                    "sale stability": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.4750000188748042
+                    }
+                  }
+                ]
+              },
+              "sales_order.sales_order1": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order",
+                  "Hierarchy": "Sales Orders"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sales order": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sales order": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "sale order": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "sale instruction": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.500000019868215
+                    }
+                  },
+                  {
+                    "sale direction": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.49999991986821091
+                    }
+                  },
+                  {
+                    "sale edict": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499999769868205
+                    }
+                  },
+                  {
+                    "sale command": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48500001927216851
+                    }
+                  },
+                  {
+                    "sale directive": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499997077216667
+                    }
+                  },
+                  {
+                    "sale demand": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499987377216269
+                    }
+                  },
+                  {
+                    "sale mandate": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499982527216079
+                    }
+                  },
+                  {
+                    "sale imperative": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499972827215687
+                    }
+                  },
+                  {
+                    "sale stability": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.4750000188748042
+                    }
+                  }
+                ]
+              },
+              "sales_order.sales_order1.sales_order": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order",
+                  "Hierarchy": "Sales Orders",
+                  "HierarchyLevel": "Sales Order"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sales order": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sales order": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "sale order": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "sale instruction": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.500000019868215
+                    }
+                  },
+                  {
+                    "sale direction": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.49999991986821091
+                    }
+                  },
+                  {
+                    "sale edict": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499999769868205
+                    }
+                  },
+                  {
+                    "sale command": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48500001927216851
+                    }
+                  },
+                  {
+                    "sale directive": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499997077216667
+                    }
+                  },
+                  {
+                    "sale demand": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499987377216269
+                    }
+                  },
+                  {
+                    "sale mandate": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499982527216079
+                    }
+                  },
+                  {
+                    "sale imperative": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499972827215687
+                    }
+                  },
+                  {
+                    "sale stability": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.4750000188748042
+                    }
+                  }
+                ]
+              },
+              "sales_order.sales_order1.sales_order_line": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order",
+                  "Hierarchy": "Sales Orders",
+                  "HierarchyLevel": "Sales Order Line"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sales order line": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sales order line": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "sale order line": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "order line": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "order line": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sale order streak": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.49246155803020181
+                    }
+                  },
+                  {
+                    "sale order stroke": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.49246155803020181
+                    }
+                  },
+                  {
+                    "sale order stripe": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.4924615087840461
+                    }
+                  },
+                  {
+                    "sale order contour": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.49246145953789017
+                    }
+                  },
+                  {
+                    "sale order mark": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.4924614102917344
+                    }
+                  },
+                  {
+                    "order streak": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48500001927216851
+                    }
+                  },
+                  {
+                    "order stroke": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48500001927216851
+                    }
+                  },
+                  {
+                    "order stripe": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499997077216667
+                    }
+                  },
+                  {
+                    "order contour": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499992227216454
+                    }
+                  }
+                ]
+              },
+              "sales_order.sales_order_line": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order",
+                  "ConceptualProperty": "Sales Order Line"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sales order line": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sales order line": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "sale order line": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "order line": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "order line": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sale order streak": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.49246155803020181
+                    }
+                  },
+                  {
+                    "sale order stroke": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.49246155803020181
+                    }
+                  },
+                  {
+                    "sale order stripe": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.4924615087840461
+                    }
+                  },
+                  {
+                    "sale order contour": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.49246145953789017
+                    }
+                  },
+                  {
+                    "sale order mark": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.4924614102917344
+                    }
+                  },
+                  {
+                    "order streak": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48500001927216851
+                    }
+                  },
+                  {
+                    "order stroke": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48500001927216851
+                    }
+                  },
+                  {
+                    "order stripe": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499997077216667
+                    }
+                  },
+                  {
+                    "order contour": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499992227216454
+                    }
+                  }
+                ]
+              },
+              "sales_order.sales_order_line_key": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order",
+                  "ConceptualProperty": "🔑 SalesOrderLineKey"
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sales order line key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sales order line key": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "sale order line key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "SalesOrderLineKey": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "line key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "line key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "order line key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "order line key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sale order line solution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48857144798551283
+                    }
+                  },
+                  {
+                    "sale order line explanation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48857139912836806
+                    }
+                  },
+                  {
+                    "sale order line basis": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.4885712036997889
+                    }
+                  },
+                  {
+                    "sale order line recipe": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.488571154842644
+                    }
+                  },
+                  {
+                    "sale order line interpretation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48857105712835447
+                    }
+                  },
+                  {
+                    "sale order line resolution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48857100827120969
+                    }
+                  },
+                  {
+                    "order line solution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.4823077114728781
+                    }
+                  },
+                  {
+                    "order line explanation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48230766324210694
+                    }
+                  },
+                  {
+                    "order line basis": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48230747031902238
+                    }
+                  }
+                ]
+              },
+              "sales_territory": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Territory"
+                },
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sales territory": {}
+                  },
+                  {
+                    "sale territory": {
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "territory; region": {}
+                  },
+                  {
+                    "territory": {
+                      "State": "Deleted",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sale terrain": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.500000019868215
+                    }
+                  },
+                  {
+                    "sale region": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.499999869868209
+                    }
+                  },
+                  {
+                    "terrain": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.49090911041606561
+                    }
+                  },
+                  {
+                    "sale land": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48500001927216851
+                    }
+                  },
+                  {
+                    "sale ground": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499997077216667
+                    }
+                  },
+                  {
+                    "sale area": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499992227216454
+                    }
+                  },
+                  {
+                    "sale zone": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499982527216079
+                    }
+                  },
+                  {
+                    "sale place": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499977677215883
+                    }
+                  },
+                  {
+                    "sale space": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48499972827215687
+                    }
+                  }
+                ]
+              },
+              "sales_territory.sales_territory_key": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Territory",
+                  "ConceptualProperty": "🔑 SalesTerritoryKey"
+                },
+                "Hidden": true,
+                "State": "Generated",
+                "Terms": [
+                  {
+                    "sales territory key": {
+                      "State": "Generated"
+                    }
+                  },
+                  {
+                    "sales territory key": {
+                      "State": "Generated",
+                      "Type": "Noun"
+                    }
+                  },
+                  {
+                    "sale territory key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.78
+                    }
+                  },
+                  {
+                    "SalesTerritoryKey": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.99
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "territory key": {
+                      "State": "Generated",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "territory key": {
+                      "State": "Generated",
+                      "Type": "Noun",
+                      "Weight": 0.97
+                    }
+                  },
+                  {
+                    "sale territory solution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.4823077114728781
+                    }
+                  },
+                  {
+                    "sale territory explanation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48230766324210694
+                    }
+                  },
+                  {
+                    "sale territory basis": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48230747031902238
+                    }
+                  },
+                  {
+                    "sale territory recipe": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48230742208825117
+                    }
+                  },
+                  {
+                    "sale territory interpretation": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48230732562670892
+                    }
+                  },
+                  {
+                    "sale territory resolution": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.48230727739593776
+                    }
+                  },
+                  {
+                    "main": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618183710358364
+                    }
+                  },
+                  {
+                    "basic": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618159901266505
+                    }
+                  },
+                  {
+                    "fundamental": {
+                      "State": "Suggested",
+                      "Type": "Noun",
+                      "Weight": 0.47618155139448132
+                    }
+                  }
+                ]
+              }
+            },
+            "Language": "en-US",
+            "Relationships": {
+              "customer_has_city": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "customer.city"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.city": {
+                    "Target": {
+                      "Entity": "customer.city"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "customer_has_countryregion": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "customer.countryregion"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.countryregion": {
+                    "Target": {
+                      "Entity": "customer.countryregion"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "customer_has_postal_code": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "customer.postal_code"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.postal_code": {
+                    "Target": {
+                      "Entity": "customer.postal_code"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "customer_has_stateprovince": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "customer.stateprovince"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.stateprovince": {
+                    "Target": {
+                      "Entity": "customer.stateprovince"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "customer_in_city": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "customer.city"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.city": {
+                    "Target": {
+                      "Entity": "customer.city"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "customer.city"
+                  }
+                },
+                "State": "Generated"
+              },
+              "customer_in_countryregion": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "customer.countryregion"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.countryregion": {
+                    "Target": {
+                      "Entity": "customer.countryregion"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "customer.countryregion"
+                  }
+                },
+                "State": "Generated"
+              },
+              "customer_in_postal_code": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "customer.postal_code"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.postal_code": {
+                    "Target": {
+                      "Entity": "customer.postal_code"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "customer.postal_code"
+                  }
+                },
+                "State": "Generated"
+              },
+              "customer_in_stateprovince": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "customer.stateprovince"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.stateprovince": {
+                    "Target": {
+                      "Entity": "customer.stateprovince"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "customer.stateprovince"
+                  }
+                },
+                "State": "Generated"
+              },
+              "customer_is_named_customer": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Name": {
+                      "Name": {
+                        "Role": "customer.customer"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "customer.customer"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.customer": {
+                    "Target": {
+                      "Entity": "customer.customer"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "customer_is_named_customer_ID": {
+                "Binding": {
+                  "ConceptualEntity": "Customer"
+                },
+                "Phrasings": [
+                  {
+                    "Name": {
+                      "Name": {
+                        "Role": "customer.customer_ID"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "customer.customer_ID"
+                      },
+                      "Subject": {
+                        "Role": "customer"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "customer": {
+                    "Target": {
+                      "Entity": "customer"
+                    }
+                  },
+                  "customer.customer_ID": {
+                    "Target": {
+                      "Entity": "customer.customer_ID"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_fiscal_has_date": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal.date"
+                      },
+                      "Subject": {
+                        "Role": "date.fiscal"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date.fiscal": {
+                    "Target": {
+                      "Entity": "date.fiscal"
+                    }
+                  },
+                  "date.fiscal.date": {
+                    "Target": {
+                      "Entity": "date.fiscal.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_fiscal_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal.month"
+                      },
+                      "Subject": {
+                        "Role": "date.fiscal"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date.fiscal": {
+                    "Target": {
+                      "Entity": "date.fiscal"
+                    }
+                  },
+                  "date.fiscal.month": {
+                    "Target": {
+                      "Entity": "date.fiscal.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_fiscal_has_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal.quarter"
+                      },
+                      "Subject": {
+                        "Role": "date.fiscal"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date.fiscal": {
+                    "Target": {
+                      "Entity": "date.fiscal"
+                    }
+                  },
+                  "date.fiscal.quarter": {
+                    "Target": {
+                      "Entity": "date.fiscal.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_fiscal_has_year": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal.year"
+                      },
+                      "Subject": {
+                        "Role": "date.fiscal"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date.fiscal": {
+                    "Target": {
+                      "Entity": "date.fiscal"
+                    }
+                  },
+                  "date.fiscal.year": {
+                    "Target": {
+                      "Entity": "date.fiscal.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_fiscal_month_has_date_fiscal_date": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal.date"
+                      },
+                      "Subject": {
+                        "Role": "date.fiscal.month"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal.month"
+                      },
+                      "Subject": {
+                        "Role": "date.fiscal.date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "date.fiscal.month"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "date.fiscal.date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date.fiscal.date": {
+                    "Target": {
+                      "Entity": "date.fiscal.date"
+                    }
+                  },
+                  "date.fiscal.month": {
+                    "Target": {
+                      "Entity": "date.fiscal.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_fiscal_quarter_has_date_fiscal_month": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal.month"
+                      },
+                      "Subject": {
+                        "Role": "date.fiscal.quarter"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal.quarter"
+                      },
+                      "Subject": {
+                        "Role": "date.fiscal.month"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "date.fiscal.quarter"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "date.fiscal.month"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date.fiscal.month": {
+                    "Target": {
+                      "Entity": "date.fiscal.month"
+                    }
+                  },
+                  "date.fiscal.quarter": {
+                    "Target": {
+                      "Entity": "date.fiscal.quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_fiscal_year_has_date_fiscal_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal.quarter"
+                      },
+                      "Subject": {
+                        "Role": "date.fiscal.year"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal.year"
+                      },
+                      "Subject": {
+                        "Role": "date.fiscal.quarter"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "date.fiscal.year"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "date.fiscal.quarter"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date.fiscal.quarter": {
+                    "Target": {
+                      "Entity": "date.fiscal.quarter"
+                    }
+                  },
+                  "date.fiscal.year": {
+                    "Target": {
+                      "Entity": "date.fiscal.year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_has_date_value": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.date_value"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.date_value": {
+                    "Target": {
+                      "Entity": "date.date_value"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_has_fiscal": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.fiscal": {
+                    "Target": {
+                      "Entity": "date.fiscal"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_has_fiscal_quarter": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal_quarter"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.fiscal_quarter": {
+                    "Target": {
+                      "Entity": "date.fiscal_quarter"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_has_fiscal_year": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.fiscal_year"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.fiscal_year": {
+                    "Target": {
+                      "Entity": "date.fiscal_year"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_has_month": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.month"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.month": {
+                    "Target": {
+                      "Entity": "date.month"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_is_named_date": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Name": {
+                      "Name": {
+                        "Role": "date.date"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "date.date"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.date": {
+                    "Target": {
+                      "Entity": "date.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "date_is_named_fiscal_date": {
+                "Binding": {
+                  "ConceptualEntity": "Date"
+                },
+                "Phrasings": [
+                  {
+                    "Name": {
+                      "Name": {
+                        "Role": "date.fiscal.date"
+                      },
+                      "Subject": {
+                        "Role": "date"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "date": {
+                    "Target": {
+                      "Entity": "date"
+                    }
+                  },
+                  "date.fiscal.date": {
+                    "Target": {
+                      "Entity": "date.fiscal.date"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_has_category": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.category"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product": {
+                    "Target": {
+                      "Entity": "product"
+                    }
+                  },
+                  "product.category": {
+                    "Target": {
+                      "Entity": "product.category"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_has_color": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.color"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product": {
+                    "Target": {
+                      "Entity": "product"
+                    }
+                  },
+                  "product.color": {
+                    "Target": {
+                      "Entity": "product.color"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_has_model": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.model"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product": {
+                    "Target": {
+                      "Entity": "product"
+                    }
+                  },
+                  "product.model": {
+                    "Target": {
+                      "Entity": "product.model"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_has_product1": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product1"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product": {
+                    "Target": {
+                      "Entity": "product"
+                    }
+                  },
+                  "product.product1": {
+                    "Target": {
+                      "Entity": "product.product1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_has_sku": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.sku"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product": {
+                    "Target": {
+                      "Entity": "product"
+                    }
+                  },
+                  "product.sku": {
+                    "Target": {
+                      "Entity": "product.sku"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_has_subcategory": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.subcategory"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product": {
+                    "Target": {
+                      "Entity": "product"
+                    }
+                  },
+                  "product.subcategory": {
+                    "Target": {
+                      "Entity": "product.subcategory"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_is_expensive": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {}
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {}
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "product.standard_cost"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.standard_cost"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product": {
+                    "Target": {
+                      "Entity": "product"
+                    }
+                  },
+                  "product.standard_cost": {
+                    "Target": {
+                      "Entity": "product.standard_cost"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_is_expensive1": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Adjective": {
+                      "Adjectives": [
+                        {
+                          "expensive": {}
+                        }
+                      ],
+                      "Antonyms": [
+                        {
+                          "cheap": {}
+                        }
+                      ],
+                      "Measurement": {
+                        "Role": "product.list_price"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.list_price"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product": {
+                    "Target": {
+                      "Entity": "product"
+                    }
+                  },
+                  "product.list_price": {
+                    "Target": {
+                      "Entity": "product.list_price"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_is_named_product": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Name": {
+                      "Name": {
+                        "Role": "product.product"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product": {
+                    "Target": {
+                      "Entity": "product"
+                    }
+                  },
+                  "product.product": {
+                    "Target": {
+                      "Entity": "product.product"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_is_named_product1_product": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Name": {
+                      "Name": {
+                        "Role": "product.product1.product"
+                      },
+                      "Subject": {
+                        "Role": "product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product": {
+                    "Target": {
+                      "Entity": "product"
+                    }
+                  },
+                  "product.product1.product": {
+                    "Target": {
+                      "Entity": "product.product1.product"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_product1_category_has_product_product1_subcategory": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product1.subcategory"
+                      },
+                      "Subject": {
+                        "Role": "product.product1.category"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product1.category"
+                      },
+                      "Subject": {
+                        "Role": "product.product1.subcategory"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "product.product1.category"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "product.product1.subcategory"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product.product1.category": {
+                    "Target": {
+                      "Entity": "product.product1.category"
+                    }
+                  },
+                  "product.product1.subcategory": {
+                    "Target": {
+                      "Entity": "product.product1.subcategory"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_product1_has_category": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product1.category"
+                      },
+                      "Subject": {
+                        "Role": "product.product1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product.product1": {
+                    "Target": {
+                      "Entity": "product.product1"
+                    }
+                  },
+                  "product.product1.category": {
+                    "Target": {
+                      "Entity": "product.product1.category"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_product1_has_model": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product1.model"
+                      },
+                      "Subject": {
+                        "Role": "product.product1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product.product1": {
+                    "Target": {
+                      "Entity": "product.product1"
+                    }
+                  },
+                  "product.product1.model": {
+                    "Target": {
+                      "Entity": "product.product1.model"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_product1_has_product": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product1.product"
+                      },
+                      "Subject": {
+                        "Role": "product.product1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product.product1": {
+                    "Target": {
+                      "Entity": "product.product1"
+                    }
+                  },
+                  "product.product1.product": {
+                    "Target": {
+                      "Entity": "product.product1.product"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_product1_has_subcategory": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product1.subcategory"
+                      },
+                      "Subject": {
+                        "Role": "product.product1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product.product1": {
+                    "Target": {
+                      "Entity": "product.product1"
+                    }
+                  },
+                  "product.product1.subcategory": {
+                    "Target": {
+                      "Entity": "product.product1.subcategory"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_product1_model_has_product_product1_product": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product1.product"
+                      },
+                      "Subject": {
+                        "Role": "product.product1.model"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product1.model"
+                      },
+                      "Subject": {
+                        "Role": "product.product1.product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "product.product1.model"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "product.product1.product"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product.product1.model": {
+                    "Target": {
+                      "Entity": "product.product1.model"
+                    }
+                  },
+                  "product.product1.product": {
+                    "Target": {
+                      "Entity": "product.product1.product"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "product_product1_subcategory_has_product_product1_model": {
+                "Binding": {
+                  "ConceptualEntity": "Product"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product1.model"
+                      },
+                      "Subject": {
+                        "Role": "product.product1.subcategory"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "product.product1.subcategory"
+                      },
+                      "Subject": {
+                        "Role": "product.product1.model"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "product.product1.subcategory"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "product.product1.model"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "product.product1.model": {
+                    "Target": {
+                      "Entity": "product.product1.model"
+                    }
+                  },
+                  "product.product1.subcategory": {
+                    "Target": {
+                      "Entity": "product.product1.subcategory"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sales_order_has_internet_sale": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "internet_sale"
+                      },
+                      "Subject": {
+                        "Role": "sales_order"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "internet_sale": {
+                    "Target": {
+                      "Entity": "internet_sale"
+                    }
+                  },
+                  "sales_order": {
+                    "Target": {
+                      "Entity": "sales_order"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sales_order_has_sales_order": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sales_order.sales_order"
+                      },
+                      "Subject": {
+                        "Role": "sales_order"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sales_order": {
+                    "Target": {
+                      "Entity": "sales_order"
+                    }
+                  },
+                  "sales_order.sales_order": {
+                    "Target": {
+                      "Entity": "sales_order.sales_order"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sales_order_has_sales_order1": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sales_order.sales_order1"
+                      },
+                      "Subject": {
+                        "Role": "sales_order"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sales_order": {
+                    "Target": {
+                      "Entity": "sales_order"
+                    }
+                  },
+                  "sales_order.sales_order1": {
+                    "Target": {
+                      "Entity": "sales_order.sales_order1"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sales_order_is_named_sales_order_line": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order"
+                },
+                "Phrasings": [
+                  {
+                    "Name": {
+                      "Name": {
+                        "Role": "sales_order.sales_order_line"
+                      },
+                      "Subject": {
+                        "Role": "sales_order"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sales_order.sales_order_line"
+                      },
+                      "Subject": {
+                        "Role": "sales_order"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sales_order": {
+                    "Target": {
+                      "Entity": "sales_order"
+                    }
+                  },
+                  "sales_order.sales_order_line": {
+                    "Target": {
+                      "Entity": "sales_order.sales_order_line"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sales_order_sales_order1_has_sales_order": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sales_order.sales_order1.sales_order"
+                      },
+                      "Subject": {
+                        "Role": "sales_order.sales_order1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sales_order.sales_order1": {
+                    "Target": {
+                      "Entity": "sales_order.sales_order1"
+                    }
+                  },
+                  "sales_order.sales_order1.sales_order": {
+                    "Target": {
+                      "Entity": "sales_order.sales_order1.sales_order"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sales_order_sales_order1_has_sales_order_line": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sales_order.sales_order1.sales_order_line"
+                      },
+                      "Subject": {
+                        "Role": "sales_order.sales_order1"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sales_order.sales_order1": {
+                    "Target": {
+                      "Entity": "sales_order.sales_order1"
+                    }
+                  },
+                  "sales_order.sales_order1.sales_order_line": {
+                    "Target": {
+                      "Entity": "sales_order.sales_order1.sales_order_line"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sales_order_sales_order1_sales_order_has_sales_order_sales_order1_sales_order_line": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Order"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sales_order.sales_order1.sales_order_line"
+                      },
+                      "Subject": {
+                        "Role": "sales_order.sales_order1.sales_order"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sales_order.sales_order1.sales_order"
+                      },
+                      "Subject": {
+                        "Role": "sales_order.sales_order1.sales_order_line"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "sales_order.sales_order1.sales_order"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "sales_order.sales_order1.sales_order_line"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sales_order.sales_order1.sales_order": {
+                    "Target": {
+                      "Entity": "sales_order.sales_order1.sales_order"
+                    }
+                  },
+                  "sales_order.sales_order1.sales_order_line": {
+                    "Target": {
+                      "Entity": "sales_order.sales_order1.sales_order_line"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sales_territory_has_country": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Territory"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sales_territory.country"
+                      },
+                      "Subject": {
+                        "Role": "sales_territory"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sales_territory": {
+                    "Target": {
+                      "Entity": "sales_territory"
+                    }
+                  },
+                  "sales_territory.country": {
+                    "Target": {
+                      "Entity": "sales_territory.country"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sales_territory_has_group": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Territory"
+                },
+                "Phrasings": [
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sales_territory.group"
+                      },
+                      "Subject": {
+                        "Role": "sales_territory"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sales_territory": {
+                    "Target": {
+                      "Entity": "sales_territory"
+                    }
+                  },
+                  "sales_territory.group": {
+                    "Target": {
+                      "Entity": "sales_territory.group"
+                    }
+                  }
+                },
+                "State": "Generated"
+              },
+              "sales_territory_in_country": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Territory"
+                },
+                "Phrasings": [
+                  {
+                    "Preposition": {
+                      "Object": {
+                        "Role": "sales_territory.country"
+                      },
+                      "Prepositions": [
+                        {
+                          "in": {}
+                        }
+                      ],
+                      "Subject": {
+                        "Role": "sales_territory"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sales_territory": {
+                    "Target": {
+                      "Entity": "sales_territory"
+                    }
+                  },
+                  "sales_territory.country": {
+                    "Target": {
+                      "Entity": "sales_territory.country"
+                    }
+                  }
+                },
+                "SemanticSlots": {
+                  "Where": {
+                    "Role": "sales_territory.country"
+                  }
+                },
+                "State": "Generated"
+              },
+              "sales_territory_is_named_region": {
+                "Binding": {
+                  "ConceptualEntity": "Sales Territory"
+                },
+                "Phrasings": [
+                  {
+                    "Name": {
+                      "Name": {
+                        "Role": "sales_territory.region"
+                      },
+                      "Subject": {
+                        "Role": "sales_territory"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  },
+                  {
+                    "Attribute": {
+                      "Object": {
+                        "Role": "sales_territory.region"
+                      },
+                      "Subject": {
+                        "Role": "sales_territory"
+                      }
+                    },
+                    "State": "Generated",
+                    "Weight": 0.99
+                  }
+                ],
+                "Roles": {
+                  "sales_territory": {
+                    "Target": {
+                      "Entity": "sales_territory"
+                    }
+                  },
+                  "sales_territory.region": {
+                    "Target": {
+                      "Entity": "sales_territory.region"
+                    }
+                  }
+                },
+                "State": "Generated"
+              }
+            },
+            "Version": "1.2.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "discourageImplicitMeasures": true,
+    "expressions": [
+      {
+        "name": "HttpSource",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Text"
+          }
+        ],
+        "expression": "\"https://raw.githubusercontent.com/pbi-tools/adventureworksdw2020-pbix/main/data/\" meta [IsParameterQuery=true, List={\"https://raw.githubusercontent.com/pbi-tools/adventureworksdw2020-pbix/main/data/#(lf)\", \"C:\\Users\\Sergey\\Links\\prj_PBI_Tools\\AdventureWorks pbix\\Data\\#(lf)\"}, DefaultValue=\"https://raw.githubusercontent.com/pbi-tools/adventureworksdw2020-pbix/main/data/#(lf)\", Type=\"Text\", IsParameterQueryRequired=true]",
+        "kind": "m",
+        "lineageTag": "76755ca4-2be9-40e5-b137-d13a4798a6cb"
+      },
+      {
+        "name": "Internet Sales",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          }
+        ],
+        "expression": [
+          "let",
+          "    Specification = ",
+          "        [ 01_Object Name = \"Internet Sales\",",
+          " \t02_Type = \"Table\",",
+          " \t03_Link to Specification = \"https://onedrive.live.com/view.aspx?resid=43FC8CA3B17868DD%21806&id=documents&wd=target%28VS%20Code.one%7C062DAB10-4A3E-4127-8D96-1AB4A4286FC7%2FDummyTask%3A%20Add%20Internet-Sales%7CC38A5B3B-DB39-4862-8800-09D041CB42B0%2F%29\",",
+          " \t04_Developer = \"Sergii_Razumov@epam.com\",",
+          " \t05_Tasks = \"JR-01, JR-15, JR-16/1\",",
+          " \t06_Due Date = \"08/30/2022 00:00:00\",",
+          " \t07_Sprint = \"1,2,3\",",
+          " \t08_Status = \"On Hold\",",
+          " \t09_Ready for pct = \"0.85\",",
+          " \t10_Dev Comment  = \"Waiting for data validation from EDA\",",
+          " \t11_PM Comment = \"\" ]",
+          "    in ",
+          "Specification",
+          ""
+        ],
+        "kind": "m",
+        "lineageTag": "008da7d0-debb-4966-81cb-ac760ca40f78"
+      },
+      {
+        "name": "Custom Sales",
+        "expression": [
+          "let",
+          "    Specification = [ ",
+          "\t01_Object Name = \"Custom Sales\",",
+          " \t\t02_Type = \"Table\",",
+          " \t\t03_Link to Specification = \"https://onedrive.live.com/view.aspx?resid=43FC8CA3B17868DD%21806&id=documents&wd=target%28VS%20Code.one%7C062DAB10-4A3E-4127-8D96-1AB4A4286FC7%2FDummyTask%3A%20Add%20Internet-Sales%7CC38A5B3B-DB39-4862-8800-09D041CB42B0%2F%29\",",
+          " \t\t04_Developer = \"Sergii_Razumov@epam.com\",",
+          " \t\t05_Tasks = \"JR-03\",",
+          " \t\t06_Due Date = \"08/30/2022 00:00:00\",",
+          " \t\t07_Sprint = \"2,3\",",
+          " \t\t08_Status = \"On Hold\",",
+          " \t\t09_Ready for pct = \"0.5\",",
+          " \t\t10_Dev Comment  = \"\",",
+          " \t\t11_PM Comment = \"\" ",
+          "\t]",
+          "    in ",
+          "Specification",
+          ""
+        ],
+        "kind": "m",
+        "lineageTag": "51dac8cd-c0bc-4313-a612-4ec939d6cdea"
+      },
+      {
+        "name": "Custom Internet Sales",
+        "expression": [
+          "let",
+          "    Specification = [ ",
+          "\t01_Object Name = \"Custom Internet Sales\",",
+          " \t\t02_Type = \"Table\",",
+          " \t\t03_Link to Specification = \"NAN\",",
+          " \t\t04_Developer = \"NAN\",",
+          " \t\t05_Tasks = \"NAN\",",
+          " \t\t06_Due Date = \"NAN\",",
+          " \t\t07_Sprint = \"3\",",
+          " \t\t08_Status = \"Removed\",",
+          " \t\t09_Ready for pct = \"\",",
+          " \t\t10_Dev Comment  = \"\",",
+          " \t\t11_PM Comment = \"Removed from project on [2022-08-25] according to FUp letter from <CustomerRepresentative>\" ",
+          "\t]",
+          "    in ",
+          "Specification",
+          ""
+        ],
+        "kind": "m",
+        "lineageTag": "2c4f6118-82f9-48e6-909a-027d47b3bb52"
+      }
+    ],
+    "relationships": [
+      {
+        "name": "c4007daa-09a5-455d-ac3b-d8338a0e4468",
+        "fromColumn": "🔑 SalesTerritoryKey",
+        "fromTable": "Sales",
+        "toColumn": "🔑 SalesTerritoryKey",
+        "toTable": "Sales Territory"
+      },
+      {
+        "name": "fe440ad4-cbfb-4a8c-9b24-4d02f59a009f",
+        "fromColumn": "🔑 ProductKey",
+        "fromTable": "Sales",
+        "toColumn": "🔑 ProductKey",
+        "toTable": "Product"
+      },
+      {
+        "name": "ddc90e12-74d0-451e-87b6-3bc8d773bf07",
+        "crossFilteringBehavior": "bothDirections",
+        "fromCardinality": "one",
+        "fromColumn": "🔑 SalesOrderLineKey",
+        "fromTable": "Sales",
+        "toColumn": "🔑 SalesOrderLineKey",
+        "toTable": "Sales Order"
+      },
+      {
+        "name": "3921d624-3ba4-40ca-b78d-61fe4ebc7659",
+        "fromColumn": "🔑 CustomerKey",
+        "fromTable": "Sales",
+        "toColumn": "🔑 CustomerKey",
+        "toTable": "Customer"
+      },
+      {
+        "name": "ad03fb2c-8d99-47eb-bdab-0e52920c9d3f",
+        "fromColumn": "🔑 OrderDateKey",
+        "fromTable": "Sales",
+        "toColumn": "🔑 DateKey",
+        "toTable": "Date"
+      },
+      {
+        "name": "a390c257-6a75-4c82-aab5-270f564d26b0",
+        "fromColumn": "🔑 DueDateKey",
+        "fromTable": "Sales",
+        "isActive": false,
+        "toColumn": "🔑 DateKey",
+        "toTable": "Date"
+      },
+      {
+        "name": "fcf11ed1-afec-495f-8897-4461f7a9d501",
+        "fromColumn": "🔑 ShipDateKey",
+        "fromTable": "Sales",
+        "isActive": false,
+        "toColumn": "🔑 DateKey",
+        "toTable": "Date"
+      },
+      {
+        "name": "f72f8f53-10b5-4d0a-82ea-19e584697a64",
+        "fromColumn": "🔑 ResellerKey",
+        "fromTable": "Sales",
+        "toColumn": "🔑 ResellerKey",
+        "toTable": "Reseller"
+      }
+    ],
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "@ReportInfo",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "changedProperties": [
+          {
+            "property": "IsHidden"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Comment",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2a409afe-5adc-47e9-8154-976cae3fdf87",
+            "sourceColumn": "Comment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Email",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "973486ae-6c72-4715-a7d7-8aec7c8ecf18",
+            "sourceColumn": "Email",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "EndDate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "3788898b-b771-45b6-b55f-23836b16db57",
+            "sourceColumn": "EndDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Index",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "c354c5f5-5bf9-4a91-8580-9c07822043ca",
+            "sourceColumn": "Index",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Property",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              },
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "e68b8f37-3626-4447-b668-8cad3ec8401a",
+            "sortByColumn": "Index",
+            "sourceColumn": "Property",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "StartDate",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isCustom\":true}"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              },
+              {
+                "property": "FormatString"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "dd-mm-yyyy",
+            "isHidden": true,
+            "lineageTag": "2a9c9c45-b169-4938-b81e-062cda9d2c2b",
+            "sourceColumn": "StartDate",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Value",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "string",
+            "isHidden": true,
+            "lineageTag": "e7812781-8b25-4aa8-a9cf-4f20e7828ea5",
+            "sourceColumn": "Value",
+            "summarizeBy": "none"
+          }
+        ],
+        "isHidden": true,
+        "lineageTag": "c321fdcd-da2d-4b76-8396-88cf21a1f1d9",
+        "partitions": [
+          {
+            "name": "@ReportInfo-2d078dea-e724-4c4f-b8b9-0de7bd738450",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source =",
+                "        Table.FromRows(",
+                "            Json.Document(",
+                "                Binary.Decompress(",
+                "                    Binary.FromText(",
+                "                        \"pY49C4NADIb/itxc1Lq4qrPQDwsdRCTU9Dy8GLmjFvvrm7ZLlw5SCOHhTXh461rN6LzhUW3UNoxlp1GcRkmcJMIynglbDzRZzJDA2PDC9Do1m1qdSqGcoMPgzPaqYdQrDUUuVGLHdz8sQx9U6LQxKyX7nVDVo7VLUOCoDawUdDij5QmdBEd43Ijn303eees+bxlOQN+qQ/6no3kC\",",
+                "                        BinaryEncoding.Base64",
+                "                    ),",
+                "                    Compression.Deflate",
+                "                )",
+                "            ),",
+                "            let _t = ((type nullable text) meta [ Serialized.Text = true ]) in type table [ Property = _t, Value = _t, StartDate = _t, EndDate = _t, Email = _t, Comment = _t ]",
+                "        ),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes( Source, { { \"StartDate\", type date } } ),",
+                "    #\"Added Index\" = Table.AddIndexColumn( #\"Changed Type\", \"Index\", 0, 1, Int64.Type )",
+                "in",
+                "    #\"Added Index\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Customer",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "City",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "City",
+            "dataType": "string",
+            "lineageTag": "af9b7ace-9b44-418c-9119-68239326f940",
+            "sourceColumn": "City",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country-Region",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "f759f179-70a9-4727-9bde-a1b6eb3b8de2",
+            "sourceColumn": "Country-Region",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Customer ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9635c12f-9de2-4b76-b1ee-1d2cb0fadaed",
+            "sourceColumn": "Customer ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Customer",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDefaultLabel": true,
+            "lineageTag": "625deafe-44d7-4544-aa56-ccbcc734c486",
+            "sourceColumn": "Customer",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Postal Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e78806df-7a35-4e7b-b493-910d63ccc9d1",
+            "sourceColumn": "Postal Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "State-Province",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a56979d8-ac37-434a-89e1-b8eeae4bd9c9",
+            "sourceColumn": "State-Province",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 CustomerKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "867e0de9-e00b-43f1-9ee1-3ee792d64633",
+            "sourceColumn": "🔑 CustomerKey",
+            "summarizeBy": "none"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Geography",
+            "levels": [
+              {
+                "name": "City",
+                "column": "City",
+                "lineageTag": "1a88e0e4-915c-45a3-882b-2d96cecc0f53",
+                "ordinal": 0
+              },
+              {
+                "name": "Customer",
+                "column": "Customer",
+                "lineageTag": "354ccc34-da41-4471-9337-c13141582224",
+                "ordinal": 1
+              }
+            ],
+            "lineageTag": "d178f04b-ad0e-480b-839f-c84ffb294536"
+          }
+        ],
+        "lineageTag": "58eb4c39-9901-4ba5-a0b5-eedf744eb87b",
+        "partitions": [
+          {
+            "name": "Customer",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Specification = [ ",
+                "\t01_Object Name = \"Customer\",",
+                " \t\t02_Type = \"Table\",",
+                " \t\t03_Link to Specification = \"https://onedrive.live.com/view.aspx?resid=43FC8CA3B17868DD%21806&id=documents&wd=target%28VS%20Code.one%7C062DAB10-4A3E-4127-8D96-1AB4A4286FC7%2FDummyTask%3A%20Add%20Internet-Sales%7CC38A5B3B-DB39-4862-8800-09D041CB42B0%2F%29\",",
+                " \t\t04_Developer = \"Sergii_Razumov@epam.com\",",
+                " \t\t05_Tasks = \"JR-06\",",
+                " \t\t06_Due Date = \"08/30/2022 00:00:00\",",
+                " \t\t07_Sprint = \"3\",",
+                " \t\t08_Status = \"UAT\",",
+                " \t\t09_Ready for pct = \"0.95\",",
+                " \t\t10_Dev Comment  = \"implementing User Remarks\",",
+                " \t\t11_PM Comment = \"\" ",
+                "\t],",
+                "    Source = Csv.Document(Web.Contents(HttpSource & \"Customer.csv\"),[Delimiter=\",\", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{",
+                "            {\"CustomerKey\", Int64.Type},",
+                "            {\"Customer ID\", type text},",
+                "            {\"Customer\", type text},",
+                "            {\"City\", type text},",
+                "            {\"State-Province\", type text},",
+                "            {\"Country-Region\", type text},",
+                "            {\"Postal Code\", type text}",
+                "        }),",
+                "    #\"🔑 Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"CustomerKey\", \"🔑 CustomerKey\"}})",
+                "in",
+                "    #\"🔑 Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Date",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "Date"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "dateTime",
+            "formatString": "Long Date",
+            "isKey": true,
+            "lineageTag": "ce904f28-b557-4388-a104-c20e8011fd18",
+            "sortByColumn": "MonthKey",
+            "sourceColumn": "Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fiscal Quarter",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "98589461-fe9b-407c-84d2-88db7d67acbd",
+            "sourceColumn": "Fiscal Quarter",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Fiscal Year",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "745cf90a-f8ad-4a07-9ca5-dec015064590",
+            "sourceColumn": "Fiscal Year",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Full Date",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDefaultLabel": true,
+            "lineageTag": "260cd2d3-cb7c-4c1a-84a6-569e5858ea1b",
+            "sourceColumn": "Full Date",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Month",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "SortByColumn"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b61e9d94-b424-42ea-8a0c-742d87461a7d",
+            "sortByColumn": "MonthKey",
+            "sourceColumn": "Month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "MonthKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "19b0e3c6-b4c5-4023-9537-4d4d660f063b",
+            "sourceColumn": "MonthKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 DateKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "9f468528-6214-4d31-b2d3-b70fe5486fe2",
+            "sourceColumn": "🔑 DateKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Year_Num",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "expression": "YEAR([Date])",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "lineageTag": "1356aadd-a48c-40f4-8103-e71d150a4bcf",
+            "summarizeBy": "none",
+            "type": "calculated"
+          }
+        ],
+        "dataCategory": "Time",
+        "description": "Filters the Sales table using sales order date",
+        "hierarchies": [
+          {
+            "name": "Fiscal",
+            "levels": [
+              {
+                "name": "Quarter",
+                "column": "Fiscal Quarter",
+                "lineageTag": "c77cfd43-b4f3-42d5-a6bd-5313a8356e17",
+                "ordinal": 0
+              },
+              {
+                "name": "Month",
+                "column": "Month",
+                "lineageTag": "60aeeca7-9e52-449a-824d-85e1f084bd8f",
+                "ordinal": 1
+              },
+              {
+                "name": "Date",
+                "column": "Full Date",
+                "lineageTag": "b9e2da76-eed6-4056-b286-de4a217b0055",
+                "ordinal": 2
+              }
+            ],
+            "lineageTag": "ed41e32b-5eda-44be-a43a-fc97caacc7cb"
+          }
+        ],
+        "lineageTag": "a7f731aa-3a4e-4062-88dd-32a21426e422",
+        "partitions": [
+          {
+            "name": "Date",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(HttpSource & \"Date.csv\"),[Delimiter=\",\", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",",
+                "        {",
+                "            {\"DateKey\", Int64.Type}, ",
+                "            {\"Date\", type datetime}, ",
+                "            {\"Fiscal Year\", type text}, ",
+                "            {\"Fiscal Quarter\", type text}, ",
+                "            {\"Month\", type text}, ",
+                "            {\"MonthKey\", Int64.Type}, ",
+                "            {\"Full Date\", type text}",
+                "        }),",
+                "    #\"Extracted Date\" = Table.TransformColumns(#\"Changed Type\",{{\"Date\", DateTime.Date, type date}}),",
+                "    #\"🔑 Renamed Columns\" = Table.RenameColumns(#\"Extracted Date\",{{\"DateKey\", \"🔑 DateKey\"}})",
+                "in",
+                "    #\"🔑 Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Product",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Category",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c97b48d8-4cb6-44c7-a124-7de04d234205",
+            "sourceColumn": "Category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Color",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9670f6b2-061e-4a9b-aaa0-8c34438ad191",
+            "sourceColumn": "Color",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "List Price",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-GB\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\"£\"#,0.###############;-\"£\"#,0.###############;\"£\"#,0.###############",
+            "lineageTag": "506c39b9-7ed0-4eab-95a6-60be12d54915",
+            "sourceColumn": "List Price",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Model",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d601a127-bb9c-4780-be76-0db26d45e7ca",
+            "sourceColumn": "Model",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Product",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e463c2eb-266d-41fd-b96c-e99500603bb9",
+            "sourceColumn": "Product",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "SKU",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "09ba3229-a396-44ae-85b6-04de20ca4071",
+            "sourceColumn": "SKU",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Standard Cost",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-GB\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\"£\"#,0.###############;-\"£\"#,0.###############;\"£\"#,0.###############",
+            "lineageTag": "d564170b-eb82-4889-85fb-251caf670a27",
+            "sourceColumn": "Standard Cost",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Subcategory",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "048a5f0a-3444-460b-be97-9f919c0921ae",
+            "sourceColumn": "Subcategory",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 ProductKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "67a6ce92-dd96-4f17-ac30-ad28f1275af6",
+            "sourceColumn": "🔑 ProductKey",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "b4d1ab24-48fd-4ed7-b122-3a4eaddc4c74",
+        "partitions": [
+          {
+            "name": "Product",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Specification = ",
+                "        [ ",
+                "\t01_Object Name = \"Product\",",
+                " \t\t02_Type = \"Table\",",
+                " \t\t03_Link to Specification = \"https://onedrive.live.com/view.aspx?resid=43FC8CA3B17868DD%21806&id=documents&wd=target%28VS%20Code.one%7C062DAB10-4A3E-4127-8D96-1AB4A4286FC7%2FDummyTask%3A%20Add%20Internet-Sales%7CC38A5B3B-DB39-4862-8800-09D041CB42B0%2F%29\",",
+                " \t\t04_Developer = \"Sergii_Razumov@epam.com\",",
+                " \t\t05_Tasks = \"JR-07\",",
+                " \t\t06_Due Date = \"08/30/2022 00:00:00\",",
+                " \t\t07_Sprint = \"3\",",
+                " \t\t08_Status = \"To Start\",",
+                " \t\t09_Ready for pct = \"\",",
+                " \t\t10_Dev Comment  = \"Waiting for specification\",",
+                " \t\t11_PM Comment = \"\" ",
+                "\t],",
+                "    Source =               Csv.Document(Web.Contents(HttpSource & \"Product.csv\"),[Delimiter=\",\", Columns=9, Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",",
+                "        {",
+                "            {\"ProductKey\", Int64.Type}, ",
+                "            {\"Product\", type text}, ",
+                "            {\"Standard Cost\", Currency.Type}, ",
+                "            {\"Color\", type text}, ",
+                "            {\"List Price\", Currency.Type}, ",
+                "            {\"Model\", type text}, ",
+                "            {\"Subcategory\", type text}",
+                "        }),",
+                "    #\"SR: Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"ProductKey\", \"🔑 ProductKey\"}})",
+                "in",
+                "    #\"SR: Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Reseller",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Business Type",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a91b9e2c-c473-45a6-a643-ba2341c05c4c",
+            "sourceColumn": "Business Type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "City",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataCategory": "City",
+            "dataType": "string",
+            "lineageTag": "0808173e-2bd5-4b25-9193-aab5546d7364",
+            "sourceColumn": "City",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Country-Region",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "716bdcc0-6171-411b-921e-ac745a7c6f7c",
+            "sourceColumn": "Country-Region",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Postal Code",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "50bf0ea7-98f6-4053-aec0-32041358927c",
+            "sourceColumn": "Postal Code",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Reseller ID",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "708839ff-2b47-489e-b5e1-932f9133f0c8",
+            "sourceColumn": "Reseller ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Reseller",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "966edd99-cdbe-4893-879f-5e615ce391c5",
+            "sourceColumn": "Reseller",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "State-Province",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3525a584-0fff-4413-bc80-e7bd88e1a830",
+            "sourceColumn": "State-Province",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 ResellerKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "f0c162fb-f306-4050-88fe-5e23b443867d",
+            "sourceColumn": "🔑 ResellerKey",
+            "summarizeBy": "none"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Geography",
+            "levels": [
+              {
+                "name": "City",
+                "column": "City",
+                "lineageTag": "bca0fa87-e1ea-498a-b280-5f24f7f7d44d",
+                "ordinal": 0
+              }
+            ],
+            "lineageTag": "1dff752f-7e89-473f-a6f4-7fb6a4daca17"
+          }
+        ],
+        "lineageTag": "785bc036-f782-4d01-9b1a-87d579883f51",
+        "partitions": [
+          {
+            "name": "Reseller",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source =",
+                "        Csv.Document(",
+                "            Web.Contents(HttpSource & \"Reseller.csv\"),",
+                "            [ Delimiter = \",\", Columns = 8, Encoding = 65001, QuoteStyle = QuoteStyle.None ]",
+                "        ),",
+                "    #\"Promoted Headers\" =",
+                "        Table.PromoteHeaders(",
+                "            Source,",
+                "            [PromoteAllScalars = true]",
+                "        ),",
+                "    #\"Changed Type\" =",
+                "        Table.TransformColumnTypes(",
+                "            #\"Promoted Headers\",",
+                "            {",
+                "                { \"ResellerKey\", Int64.Type },",
+                "                { \"Business Type\", type text },",
+                "                { \"Reseller\", type text },",
+                "                { \"City\", type text },",
+                "                { \"State-Province\", type text },",
+                "                { \"Country-Region\", type text },",
+                "                { \"Postal Code\", type text } }",
+                "        ),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"ResellerKey\", \"🔑 ResellerKey\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sales",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Column1",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "0434c0f4-049c-4ab8-9d96-f6fe69242da7",
+            "sourceColumn": "Column1",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "DateMonth",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": "RELATED('Date'[Month])",
+            "isDataTypeInferred": true,
+            "lineageTag": "0e7a3d68-20fe-44fa-b703-2b3e6d666cd3",
+            "summarizeBy": "none",
+            "type": "calculated"
+          },
+          {
+            "name": "Extended Amount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-GB\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\"£\"#,0.###############;-\"£\"#,0.###############;\"£\"#,0.###############",
+            "lineageTag": "d8023af6-1706-491b-b5bd-dd9ada88b60b",
+            "sourceColumn": "Extended Amount",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Order Quantity",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "93b9a037-0f2c-486c-b361-83ad5df83775",
+            "sourceColumn": "Order Quantity",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Product Standard Cost",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-GB\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\"£\"#,0.###############;-\"£\"#,0.###############;\"£\"#,0.###############",
+            "lineageTag": "6d813813-65e0-45c0-837a-7fc7a38996db",
+            "sourceColumn": "Product Standard Cost",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sales Amount",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-GB\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\"£\"#,0.###############;-\"£\"#,0.###############;\"£\"#,0.###############",
+            "lineageTag": "994ccaec-7346-4ec7-a19a-5e9aff1b026e",
+            "sourceColumn": "Sales Amount",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Total Product Cost",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-GB\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\"£\"#,0.###############;-\"£\"#,0.###############;\"£\"#,0.###############",
+            "lineageTag": "61d64aca-f3ea-428c-bcbb-f8c136703f4f",
+            "sourceColumn": "Total Product Cost",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Unit Price Discount Pct",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "dataType": "double",
+            "lineageTag": "00b82f5e-239d-4e3c-8779-d72d52deeef3",
+            "sourceColumn": "Unit Price Discount Pct",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Unit Price",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"currencyCulture\":\"en-GB\"}"
+              }
+            ],
+            "dataType": "decimal",
+            "formatString": "\"£\"#,0.###############;-\"£\"#,0.###############;\"£\"#,0.###############",
+            "lineageTag": "c0d27baf-f85e-46f0-9ec9-113ee53ad0c2",
+            "sourceColumn": "Unit Price",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 CustomerKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "81379088-25e7-4b98-ac92-e25622cba650",
+            "sourceColumn": "🔑 CustomerKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 DueDateKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "2f7c36fb-e820-4413-91b6-726f9d35bc4f",
+            "sourceColumn": "🔑 DueDateKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 OrderDateKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "52f6c314-6573-4b17-95c7-5d896094d7cd",
+            "sourceColumn": "🔑 OrderDateKey",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "🔑 ProductKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "1c8adaff-3fdb-4814-9199-071e800b1530",
+            "sourceColumn": "🔑 ProductKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 ResellerKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "ae4ac256-e14b-4154-9b06-11fa91438084",
+            "sourceColumn": "🔑 ResellerKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 SalesOrderLineKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "29797928-c592-4eb4-8911-34538734a54c",
+            "sourceColumn": "🔑 SalesOrderLineKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 SalesTerritoryKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "1bd874bb-8f3f-4323-affd-402a786e173b",
+            "sourceColumn": "🔑 SalesTerritoryKey",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 ShipDateKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "a6d97191-ec4f-4c35-9591-790f3a287cfd",
+            "sourceColumn": "🔑 ShipDateKey",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "5874089a-4747-497c-940e-9203a37ce7dd",
+        "measures": [
+          {
+            "name": "Product Rank By Group",
+            "displayFolder": ".Measures",
+            "expression": [
+              "IF (",
+              "    ISINSCOPE ( 'Product'[Product] ),",
+              "        VAR _SalesAmounCurrentProduct = [SALESAMOUNT]",
+              "        VAR _ProductRank =",
+              "            RANKX ( ALLSELECTED ( 'PRODUCT'[Product] ), [SALESAMOUNT],  )",
+              "        VAR _Result =",
+              "            IF ( NOT ISBLANK ( _SalesAmounCurrentProduct ), _ProductRank )",
+              "        RETURN",
+              "            _Result",
+              ")"
+            ],
+            "lineageTag": "02266826-3550-44dc-abc6-b6d981deeb28"
+          },
+          {
+            "name": "SalesAmount",
+            "description": "This is a description for SumSales measure",
+            "displayFolder": ".Measures",
+            "expression": "SUM ( 'Sales'[Sales Amount] )",
+            "lineageTag": "7505687f-3f6e-4869-87ed-f7d77dcea4ff"
+          },
+          {
+            "name": "SumSalesQuantity",
+            "displayFolder": ".Measures",
+            "expression": "SUM ( 'Sales'[Order Quantity] )",
+            "lineageTag": "e9a680cd-7d5e-45ae-9bc7-b270446be446"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Sales",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Csv.Document( Web.Contents(HttpSource & \"Sales.csv\"), [ Delimiter = \",\", Columns = 16, Encoding = 65001, QuoteStyle = QuoteStyle.None ] ),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders( Source, [PromoteAllScalars = true] ),",
+                "    #\"Changed Type\" =",
+                "        Table.TransformColumnTypes(",
+                "            #\"Promoted Headers\",",
+                "            {",
+                "                { \"SalesOrderLineKey\", Int64.Type },",
+                "                { \"ResellerKey\", Int64.Type },",
+                "                { \"CustomerKey\", Int64.Type },",
+                "                { \"ProductKey\", Int64.Type },",
+                "                { \"OrderDateKey\", Int64.Type },",
+                "                { \"DueDateKey\", Int64.Type },",
+                "                { \"ShipDateKey\", Int64.Type },",
+                "                { \"SalesTerritoryKey\", Int64.Type },",
+                "                { \"Order Quantity\", Int64.Type },",
+                "                { \"Unit Price\", Currency.Type },",
+                "                { \"Extended Amount\", Currency.Type },",
+                "                { \"Product Standard Cost\", Currency.Type },",
+                "                { \"Total Product Cost\", Currency.Type },",
+                "                { \"Sales Amount\", Currency.Type },",
+                "                { \"Unit Price Discount Pct\", type number } }",
+                "        ),",
+                "    #\"🔑 Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"SalesOrderLineKey\", \"🔑 SalesOrderLineKey\"}, {\"ResellerKey\", \"🔑 ResellerKey\"}, {\"CustomerKey\", \"🔑 CustomerKey\"}, {\"ProductKey\", \"🔑 ProductKey\"}, {\"OrderDateKey\", \"🔑 OrderDateKey\"}, {\"DueDateKey\", \"🔑 DueDateKey\"}, {\"ShipDateKey\", \"🔑 ShipDateKey\"}, {\"SalesTerritoryKey\", \"🔑 SalesTerritoryKey\"}})",
+                "in",
+                "    #\"🔑 Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sales Order",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Channel",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "69f78faf-c6db-4782-88e9-993b8a2680e2",
+            "sourceColumn": "Channel",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sales Order Line",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "isDefaultLabel": true,
+            "lineageTag": "136ad0a8-2b70-4137-9f54-6a1d2c1d0ff2",
+            "sourceColumn": "Sales Order Line",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sales Order",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "4431871e-46d3-41db-9c38-da1b9daf41f6",
+            "sourceColumn": "Sales Order",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 SalesOrderLineKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "3e97938f-ec59-40e9-9209-fe327b37373a",
+            "sourceColumn": "🔑 SalesOrderLineKey",
+            "summarizeBy": "none"
+          }
+        ],
+        "hierarchies": [
+          {
+            "name": "Sales Orders",
+            "levels": [
+              {
+                "name": "Sales Order Line",
+                "column": "Sales Order Line",
+                "lineageTag": "e15da17a-4781-4bd8-8e79-ab1de2bc55f8",
+                "ordinal": 0
+              }
+            ],
+            "lineageTag": "4b1b1fcc-a2d3-4ce4-b5f1-0576f98b7477"
+          }
+        ],
+        "lineageTag": "f30e9a4d-6d0e-4657-921c-5decdb315577",
+        "partitions": [
+          {
+            "name": "Sales Order",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source =",
+                "        Csv.Document(",
+                "            Web.Contents(HttpSource & \"Sales Order.csv\"),",
+                "            [ Delimiter = \",\", Columns = 4, Encoding = 65001, QuoteStyle = QuoteStyle.None ]",
+                "        ),",
+                "    #\"Promoted Headers\" =",
+                "        Table.PromoteHeaders( Source, [PromoteAllScalars = true] ),",
+                "    #\"Changed Type\" =",
+                "        Table.TransformColumnTypes(",
+                "            #\"Promoted Headers\",",
+                "            {",
+                "                { \"SalesOrderLineKey\", Int64.Type },",
+                "                { \"Sales Order\", type text },",
+                "                { \"Sales Order Line\", type text },",
+                "                { \"Channel\", type text }",
+                "            }",
+                "        ),",
+                "    #\"🔑 Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"SalesOrderLineKey\", \"🔑 SalesOrderLineKey\"}})",
+                "in",
+                "    #\"🔑 Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sales Territory",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Country",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dbe154d4-bf1c-4ef8-8b65-0a7c21091a44",
+            "sourceColumn": "Country",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Group",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "6eff7e83-4371-4668-a3af-1ef69d0c8e1a",
+            "sourceColumn": "Group",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Region",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a9cf8e32-934d-4b10-8cc4-c27e91ca860f",
+            "sourceColumn": "Region",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "🔑 SalesTerritoryKey",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "changedProperties": [
+              {
+                "property": "IsHidden"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isHidden": true,
+            "lineageTag": "7b036985-cefc-4fca-8da1-c18247a1e8b3",
+            "sourceColumn": "🔑 SalesTerritoryKey",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "11c99fef-3742-4383-97bf-bc9128d65d19",
+        "partitions": [
+          {
+            "name": "Sales Territory",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source =",
+                "        Csv.Document(",
+                "            Web.Contents(HttpSource & \"Sales Territory.csv\"),",
+                "            [",
+                "                Delimiter = \",\",",
+                "                Columns = 4,",
+                "                Encoding = 65001,",
+                "                QuoteStyle = QuoteStyle.None",
+                "            ]",
+                "        ),",
+                "    #\"Promoted Headers\" =",
+                "        Table.PromoteHeaders(",
+                "            Source,",
+                "            [PromoteAllScalars = true]",
+                "        ),",
+                "    #\"Changed Type\" =",
+                "        Table.TransformColumnTypes(",
+                "            #\"Promoted Headers\",",
+                "            {",
+                "                { \"SalesTerritoryKey\", Int64.Type },",
+                "                { \"Region\", type text },",
+                "                { \"Country\", type text },",
+                "                { \"Group\", type text }",
+                "            }",
+                "        ),",
+                "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"SalesTerritoryKey\", \"🔑 SalesTerritoryKey\"}})",
+                "in",
+                "    #\"Renamed Columns\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
