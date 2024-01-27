@@ -5911,6 +5911,13 @@
           }
         ],
         "lineageTag": "6c4bf4ba-5e5e-41ad-bb32-2a6fdb7a18cc",
+        "measures": [
+          {
+            "name": "m1",
+            "expression": "\"measure One Added\"",
+            "lineageTag": "922e75df-f710-41e1-aefd-4619b99006f9"
+          }
+        ],
         "partitions": [
           {
             "name": "📱Metriks",
