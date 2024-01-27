@@ -5911,6 +5911,13 @@
           }
         ],
         "lineageTag": "6c4bf4ba-5e5e-41ad-bb32-2a6fdb7a18cc",
+        "measures": [
+          {
+            "name": "m2",
+            "expression": "\"This is second measure\"",
+            "lineageTag": "d325e0d9-7684-4574-bc70-cf84eb6b287c"
+          }
+        ],
         "partitions": [
           {
             "name": "📱Metriks",
