@@ -5921,6 +5921,11 @@
             "name": "m1",
             "expression": "\"measure One Added\"",
             "lineageTag": "922e75df-f710-41e1-aefd-4619b99006f9"
+          },
+          {
+            "name": "m22",
+            "expression": "\"measure 22 added\"",
+            "lineageTag": "af0e599c-99d3-4090-828c-0dd06d7445d4"
           }
         ],
         "partitions": [
@@ -5996,10 +6001,6 @@
       {
         "name": "data1",
         "annotations": [
-          {
-            "name": "PBI_NavigationStepName",
-            "value": "Navigation"
-          },
           {
             "name": "PBI_ResultType",
             "value": "Table"
